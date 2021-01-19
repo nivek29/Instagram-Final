@@ -1,0 +1,63 @@
+.content-Instagram{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.title-Instagram{
+    background-color: white;
+}
+.content-Photo{
+    width: 100%;
+    padding: 10px 0px 25px 0px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-Post{
+    width: 75%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.title-Post{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+.img-Post{
+    width: 100%;
+    height: 280px;
+}
+@supports(object-fit: cover){
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.foot-Post{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;   
+}
+.foot-Text{
+    width: 85%;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+h3{
+    margin-left: 10px;
+}
+h4{
+    color: rgb(165, 163, 163);
+    margin-right: 10px;
+}
